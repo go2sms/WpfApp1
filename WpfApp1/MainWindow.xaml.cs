@@ -28,7 +28,7 @@ namespace WpfApp1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            label.Content = "Salman" + i.ToString();
+            label.Content = "Salman" + (i+1).ToString();
             i++;
         }
     }
